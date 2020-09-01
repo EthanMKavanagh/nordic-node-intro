@@ -12,7 +12,7 @@ let secretPeople = [
   "Cooper"
 ];
 
-function getSecretPeople() {
+function getCodeNames() {
   let secretName = [];
   for (let person of secretPeople) {
     secretName.push(person[0]);
@@ -23,6 +23,6 @@ function getSecretPeople() {
 
 // Share my people with the world!
 module.exports = {
-  people: specialPeeps,
-  getCodeName: getSecretPeople
+  specialPeeps: specialPeeps,
+  getCodeNames: getCodeNames
 };
